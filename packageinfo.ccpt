@@ -1,0 +1,13 @@
+{
+    name = "Evo Logging",
+    id = "evo-log",
+    comment = "Logging library for ComputerCraft/CC: Tweaked",
+    author = "Luiz Martins",
+    website = "https://github.com/luiz00martins/evo-log",
+    newestversion = "0.0.1",
+    dependencies = {},
+    install = {
+        type = "script",
+        scripturl = "https://raw.githubusercontent.com/luiz00martins/evo-log/main/ccpt-install.lua"
+    }
+}
