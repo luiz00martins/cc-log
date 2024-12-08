@@ -24,7 +24,7 @@ function _M.print()
 	log.usecolor = false
 	log.level = "trace"
 
-	local tostring = require('/logos-library.utils.utils').tostring
+	local tostring = require('/evo-logistics/utils/utils').tostring
 
 	for i, x in ipairs(MODES) do
 		local name = x.pretty_name or x.name
@@ -59,7 +59,7 @@ function _M.file(outfile)
 	log.outfile = outfile
 	log.level = "trace"
 
-	local tostring = require('/logos-library.utils.utils').tostring
+	local tostring = require('/evo-logistics/utils/utils').tostring
 
 	for i, x in ipairs(MODES) do
 		local name = x.pretty_name or x.name
